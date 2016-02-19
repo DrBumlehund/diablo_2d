@@ -1,0 +1,136 @@
+\documentclass[11pt]{article}
+%Packages
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage[margin=1in,includefoot]{geometry}
+\usepackage{subfiles}
+\usepackage{parskip} %noindent
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{lipsum}
+
+%Package setup
+\hypersetup{
+    colorlinks=false,
+    linktoc=all,
+    linkcolor=blue,
+}
+\graphicspath{{./images/}}
+
+%Title
+\title{
+\Huge{\textsc{Semester Project in Component-based Software Development}}\\[0.7cm]
+\large{\textsc{Project Foundation}}\\[1cm]
+\includegraphics[height=4cm]{sdu-fp2.png}\\[3cm]}
+
+\author{
+  Casper Beese Nielsen\\
+  Exam \textnumero{} 409468\\
+  \texttt{casni14@student.sdu.dk}
+  \and
+  Jakob Tøttrup\\
+  Exam \textnumero{} 334604\\
+  \texttt{jatoe13@student.sdu.dk}
+  \and
+  Jesper Bager Rasmussen\\
+  Exam \textnumero{} 64754145\\
+  \texttt{jrasm14@student.sdu.dk}
+  \and
+  Oliver Vestergaard\\
+  Exam \textnumero{} 64754140\\
+  \texttt{olves13@student.sdu.dk}
+  \and
+  Simon Hjortshøj Larsen\\
+  Exam \textnumero{} 64754151\\
+  \texttt{sila114@student.sdu.dk}
+  \and
+  Thomas Lemqvist\\
+  Exam \textnumero{} 410261\\  
+  \texttt{thlem14@student.sdu.dk}
+  \and
+  \\ \\ Project Supervisor: Jan Corfixen
+}
+\date{2/23/2016}
+
+%Start of Document
+\begin{document}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Group 2 - SB4-KBS-U1}
+\lhead{\includegraphics[height=1cm]{sdu-header.png}Project-Y!}
+\rfoot{Page \thepage\ }
+
+\maketitle
+\thispagestyle{empty}
+%indledning
+\newpage
+\addcontentsline{toc}{section}{\textsc{Preface}}
+\pagenumbering{Roman}
+\addcontentsline{toc}{section}{Table of Contents}
+\renewcommand\contentsname{Table of Contents}
+\setcounter{tocdepth}{2}
+\tableofcontents
+
+%sections m. subfiles
+\newpage
+\addcontentsline{toc}{section}{\textsc{Main}}
+\pagenumbering{arabic}
+
+\section{Project-Y! Description}
+%Beskrivende linje
+\label{sec:init}
+\subfile{sections/InitiatingProblem}
+
+\section{Existing Solutions}
+%Beskrivende linje
+\label{sec:exist}
+\subfile{sections/ExistingSolutions}
+
+\section{Problem Definition}
+%Beskrivende linje
+\label{sec:def}
+\subfile{sections/ProblemDefinition}
+
+\section{Project Boundary}
+%Beskrivende linje
+\label{sec:bound}
+\subfile{sections/ProjectBoundry}
+
+\section{Tools \& Methods}
+%Beskrivende linje
+\label{sec:tools}
+\subfile{sections/ToolsAndMethods}
+
+\section{Time Schedule}
+%Beskrivende linje
+\label{sec:time}
+\subfile{sections/TimeSchedule}
+
+\section{Preliminary Report Outline}
+%Beskrivende linje
+\label{sec:out}
+\subfile{sections/PreliminaryReportOutline}
+
+%outtro
+\addcontentsline{toc}{section}{Appendices}
+\pagenumbering{Alph}
+
+\section{Coopertation Agreement}
+%Beskrivende linje
+\label{sec:coop}
+\subfile{sections/CooperationAgreement}
+
+\section{Supervisor Agreement}
+%Beskrivende linje
+\label{sec:super}
+\subfile{sections/AdvisorAgreement}
+
+\addcontentsline{toc}{section}{List of Figures}
+\label{sec:lof}
+\listoffigures
+
+\end{document}
