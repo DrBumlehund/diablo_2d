@@ -1,50 +1,102 @@
 \documentclass[11pt]{article}
 %Relevante pakker
 \usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage[table]{xcolor}
 %Irelevante pakker
 \usepackage{parskip}
 \usepackage[margin=1in,includefoot]{geometry}
 
 \begin{document}
-\paragraph{Requirements}
-\subparagraph{Functional Requirements}
+\section*{Requirements}
+\subsection*{Functional Requirements}
 \begin{enumerate}[F01]
-	\item hello
+	\item Protagonist and NPC's\footnote{Non Playable Character} can move.
+	\item Protagonist can aim in any direction.
+	\item Protagonist can collect items from the ground.
+	\item Protagonist can equip collected items.
+	\item Protagonist can consume potions.
+	\item Protagonist can gain experience points to gain levels.
+	\item Protagonist can spend levelpoints to increase stats (attributes eg. strength, fire rate, and precision).
+	\item Protagonist can purchase potions (power-ups)
+	\item Protagonist and NPC's can fire their weapon
+	\item Protagonist and NPC's can take damage.
+	\item Protagonist and NPC's will die, if damage exceeds their hit points (HP).
+	\item Hostile NPC's has a chance to drop loot, when they die.
+
 \end{enumerate}
-\subparagraph{Product requirements}
+\subsection*{Non-Functional Requirements}
+\subsubsection*{Product requirements}
 \begin{enumerate}[P01]
-	\item hello
+	\item The system must save select game data to a database.
+	\item The system should be developed using JMonkeyEngine (JME).
+	\item The system should be developed in Java SE.
+	\item The system should be compatible with Windows, Mac OS X and Linux.
+ 	\item The system must be component based, and implement a component framework.
+ 	\item Components must be able to load and unload dynamically.
+ 	\item The system must apply algorithms and data-structures.
+	\item The system must implement an AI.
 \end{enumerate}
-\subparagraph{Quality requirements}
+\subsubsection*{Quality requirements}
 \begin{enumerate}[Q01]
-	\item hello
+	\item The game world should be procedurally generated.
+	\item The game should be playable with a game controller.
+	\item Equip-able items should be randomly generated.
+	\item The game should contain an engaging soundtrack.
+	\item The game must detect collisions between entities.
+	\item NPC's must implement an AI
 \end{enumerate}
-\subparagraph{Suplementing requirements}
+\subsubsection*{Supplementing requirements}
 \begin{enumerate}[S01]
-	\item hello
+	\item Hello
+
 \end{enumerate}
 
+\subsection*{Requirement Prioritization\\[.2cm]}
+\begin{tabularx}{\textwidth}{|c|X||c||c|c|c||c|}
 
-\paragraph{Requirement Prioritization\\[.2cm]}
-\begin{tabular}{|c||c||c|c|c||c|}
+	\hline \multicolumn{7}{|c|}{\cellcolor{gray!50}\textbf{Functional Requirements}} \\\hline
+ 	Id  & Name & MoSCoW & Sys.\footnote{System benefit} & Arch.\footnote{Architectural importance} & Risk & Total\\\hline
+ 	F09 & Protagonist and NPC's can use their weapon & $M$ & $5$ & $3$ & $2$ & $10$ \\\hline
+ 	F01 & Protagonist and NPC's can move. & $M$ & $4$ & $1$ & $2$ & $7$ \\\hline
+ 	F02 & Protagonist can aim in any direction. & $M$ & $4$ & $1$ & $2$ & $7$ \\\hline\hline
+ 	F11 & Protagonist and NPC's will die, if damage exceeds their HP. & $S$ & $3$ & $3$ & $3$ & $9$ \\\hline
+ 	F10 & Protagonist and NPC's can take damage. & $S$ & $3$ & $1$ & $2$ & $6$ \\\hline\hline
+ 	F04 & Protagonist can equip collected items. & $C$ & $3$ & $3$ & $3$ & $9$ \\\hline
+ 	F12 & Hostile NPC's has a chance to drop loot, when they die. & $C$ & $3$ & $2$ & $3$ & $8$ \\\hline
+ 	F03 & Protagonist can collect items from the ground. & $C$ & $3$ & $2$ & $2$ & $7$ \\\hline
+ 	F05 & Protagonist can consume potions & $C$ & $3$ & $2$ & $2$ & $7$ \\\hline
+ 	F06 & Protagonist can gain experience points. & $C$ & $1$ & $1$ & $2$ & $4$ \\\hline\hline
+ 	F07 & Protagonist can purchase potions & $W$ & $1$ & $1$ & $1$ & $3$ \\\hline
+ 	F08 & Protagonist can spend level-points to increase stats & $W$ & $1$ & $1$ & $1$ & $3$ \\\hline
 
-	\hline \multicolumn{6}{|c|}{\textbf{Functional Requirements}} \\\hline
- 	Id  & MoSCoW & System benefit & Architectural benefit & Risk & total\\\hline
- 	F01 & $x$ & $x$ & $x$ & $x$ & $3x$ \\\hline
+\end{tabularx}
+
+\begin{tabularx}{\textwidth}{|c|X||c||c|c|c||c|}
+	\hline\multicolumn{7}{|c|}{\cellcolor{gray!50}\textbf{Non-Functional Requirements}} \\\hline
+ 	Id  & Name & MoSCoW & Sys. & Arch. & Risk & Total\\\hline
+	\multicolumn{7}{|c|}{\cellcolor{gray!25}Product Requirements} \\\hline
+ 	P02 & The system must be developed using JMonkeyEngine (JME). & $M$ & $-$ & $-$ & $-$ & $-$ \\\hline
+ 	P03 & The system must be developed in Java SE. & $M$ & $-$ & $-$ & $-$ & $-$ \\\hline
+ 	P05 & The system must be component based. & $M$ & $-$ & $-$ & $-$ & $-$ \\\hline
+ 	P06 & Components must be able to load and unload dynamically. & $M$ &  $-$ & $-$ & $-$ & $-$ \\\hline
+ 	P07 & The system must apply algorithms and data-structures. & $M$ &  $-$ & $-$ & $-$ & $-$ \\\hline
+ 	P08 & The system must implement an AI. & $M$ &  $-$ & $-$ & $-$ & $-$ \\\hline\hline
+ 	P01 & The system should save select game data to a database. & $S$ & $4$ & $3$ & $3$ & $10$ \\\hline
+  	P04 & The system should be compatible with Windows, Mac OS X and Linux. & $S$ & $-$ & $-$ & $-$ & $-$ \\\hline
  	
-	\multicolumn{6}{|c|}{\textbf{Non-Functional Requirements}} \\\hline
-	\multicolumn{6}{|c|}{Product Requirements} \\\hline
- 	Id & MoSCoW & System benefit & Architectural benefit & Risk & total\\\hline
- 	P01 & $x$ & $x$ & $x$ & $x$ & $3x$ \\\hline
- 	
-	\multicolumn{6}{|c|}{Quality Requirements} \\\hline
- 	Id & MoSCoW & System benefit & Architectural benefit & Risk & total\\\hline
- 	Q01 & $x$ & $x$ & $x$ & $x$ & $3x$ \\\hline
- 	
-	\multicolumn{6}{|c|}{Additional Requirements} \\\hline
- 	Id & MoSCoW & System benefit & Architectural benefit & Risk & total\\\hline
- 	S01 & $x$ & $x$ & $x$ & $x$ & $3x$ \\\hline
+	\multicolumn{7}{|c|}{\cellcolor{gray!25}Quality Requirements} \\\hline
 	
-\end{tabular}
+ 	Q05 & The game must detect collisions between entities. & $M$ & $5$ & $4$ & $5$ & $14$ \\\hline\hline
+ 	Q01 & The game world should be procedurally generated. & $S$ & $4$ & $4$ & $4$ & $12$ \\\hline\hline
+ 	Q04 & The game could contain an engaging soundtrack. & $C$ & $1$ & $2$ & $2$ & $5$ \\\hline
+ 	Q02 & The game should be playable with a game controller. & $C$ & $2$ & $1$ & $1$ & $4$ \\\hline
+ 	Q03 & Equip-able items should be randomly generated. & $C$ & $2$ & $1$ & $1$ & $4$ \\\hline
+	
+	\multicolumn{7}{|c|}{\cellcolor{gray!25}Supplementing Requirements} \\\hline
+ 	S01 & Hello & $x$ & $x$ & $x$ & $x$ & $3x$ \\\hline
+	
+\end{tabularx}
+
 
 \end{document}
