@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="group2.P2W_The_Game.branding">
-    <module_version install_time="1456316964732" last="true" origin="installer" specification_version="1.0.0">
-        <file crc="2805317835" name="config/Modules/group2-P2W_The_Game-branding.xml"/>
-        <file crc="772057011" name="core/locale/core_p2wthegame.jar"/>
-        <file crc="1274585148" name="modules/group2-P2W_The_Game-branding.jar"/>
-        <file crc="3881546387" name="modules/locale/org-netbeans-core-windows_p2wthegame.jar"/>
-        <file crc="3319565600" name="modules/locale/org-netbeans-core_p2wthegame.jar"/>
-    </module_version>
-</module>

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.21)  19 FEB 2016 13:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.21)  23 FEB 2016 14:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -668,7 +668,7 @@ Package grfext Info: Graphics extension search list:
 (grfext)             \AppendGraphicsExtensions on input line 452.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-)) <./images/sdu-fp2.png, id=58, 708.39656pt x 225.09094pt>
+)) <./images/sdu-fp2.png, id=54, 708.39656pt x 225.09094pt>
 File: ./images/sdu-fp2.png Graphic file (type png)
  <use ./images/sdu-fp2.png>
 Package pdftex.def Info: ./images/sdu-fp2.png used on input line 68.
@@ -690,7 +690,7 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- <./images/sdu-header.png, id=97, 223.58531pt x 245.41687pt>
+ <./images/sdu-header.png, id=91, 223.58531pt x 245.41687pt>
 File: ./images/sdu-header.png Graphic file (type png)
  <use ./images/sdu-header.png>
 Package pdftex.def Info: ./images/sdu-header.png used on input line 79.
@@ -703,91 +703,135 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [1 <./images/sdu-header.png>] (./sections/SolutionDesc.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--10
+
+ []
+
 File: ./images/sdu-header.png Graphic file (type png)
- <use ./images/sdu-header.png>
-Package pdftex.def Info: ./images/sdu-header.png used on input line 5.
+<use ./images/sdu-header.png>
+Package pdftex.def Info: ./images/sdu-header.png used on input line 34.
 (pdftex.def)             Requested size: 25.92157pt x 28.45274pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5 \end
-        {document} [1]) (./sections/ExistingSolutions.tex
+l.34 	\item L
+             ocal storage / Online storage [1]) (./sections/ExistingSolutions.tex <images/diabloMap.jpg, id=117, 1927.2pt x 1076.02pt>
+File: images/diabloMap.jpg Graphic file (type jpg)
+ <use images/diabloMap.jpg>
+Package pdftex.def Info: images/diabloMap.jpg used on input line 7.
+(pdftex.def)             Requested size: 305.7411pt x 170.71652pt.
+ <images/gta2.png, id=119, 642.4pt x 481.8pt>
+File: images/gta2.png Graphic file (type png)
+ <use images/gta2.png>
+Package pdftex.def Info: images/gta2.png used on input line 15.
+(pdftex.def)             Requested size: 227.6174pt x 170.71652pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--17
+
+ []
+
+<images/asteroids.jpg, id=121, 501.875pt x 501.875pt>
+File: images/asteroids.jpg Graphic file (type jpg)
+ <use images/asteroids.jpg>
+Package pdftex.def Info: images/asteroids.jpg used on input line 23.
+(pdftex.def)             Requested size: 227.62204pt x 227.62596pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--25
+
+ []
+
+File: ./images/sdu-header.png Graphic file (type png)
+<use ./images/sdu-header.png>
+Package pdftex.def Info: ./images/sdu-header.png used on input line 26.
+(pdftex.def)             Requested size: 25.92157pt x 28.45274pt.
+ [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.26 A
+      steroids has a stationary camera, where the camera is standing still, ...pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.26 A
+      steroids has a stationary camera, where the camera is standing still, ... <./images/diabloMap.jpg> <./images/gta2.png>]) (./sections/ProblemDefinition.tex) (./sections/ToolsAndMethods.tex
 File: ./images/sdu-header.png Graphic file (type png)
  <use ./images/sdu-header.png>
 Package pdftex.def Info: ./images/sdu-header.png used on input line 5.
 (pdftex.def)             Requested size: 25.92157pt x 28.45274pt.
- [2]) (./sections/ProblemDefinition.tex
-File: ./images/sdu-header.png Graphic file (type png)
- <use ./images/sdu-header.png>
-Package pdftex.def Info: ./images/sdu-header.png used on input line 5.
-(pdftex.def)             Requested size: 25.92157pt x 28.45274pt.
- [3]) (./sections/ProjectBoundry.tex
-File: ./images/sdu-header.png Graphic file (type png)
- <use ./images/sdu-header.png>
-Package pdftex.def Info: ./images/sdu-header.png used on input line 5.
-(pdftex.def)             Requested size: 25.92157pt x 28.45274pt.
- [4]) (./sections/ToolsAndMethods.tex
-File: ./images/sdu-header.png Graphic file (type png)
- <use ./images/sdu-header.png>
-Package pdftex.def Info: ./images/sdu-header.png used on input line 5.
-(pdftex.def)             Requested size: 25.92157pt x 28.45274pt.
- [5]
-File: ./images/sdu-header.png Graphic file (type png)
- <use ./images/sdu-header.png>
-Package pdftex.def Info: ./images/sdu-header.png used on input line 5.
-(pdftex.def)             Requested size: 25.92157pt x 28.45274pt.
- [6]) (./sections/TimeSchedule.tex
-File: ./images/sdu-header.png Graphic file (type png)
- <use ./images/sdu-header.png>
-Package pdftex.def Info: ./images/sdu-header.png used on input line 5.
-(pdftex.def)             Requested size: 25.92157pt x 28.45274pt.
- [7]) (./sections/PreliminaryReportOutline.tex
-File: ./images/sdu-header.png Graphic file (type png)
- <use ./images/sdu-header.png>
-Package pdftex.def Info: ./images/sdu-header.png used on input line 23.
-(pdftex.def)             Requested size: 25.92157pt x 28.45274pt.
- [8]) (./sections/CooperationAgreement.tex
+ [3pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.5 	\item J
+            MonkeyEngine (JME) or LibGDX. <./images/asteroids.jpg>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 22.
+(Font)              <10.95> on input line 9.
+) (./sections/TimeSchedule.tex <images/Timetable.png, id=135, 1274.7625pt x 377.41pt>
+File: images/Timetable.png Graphic file (type png)
+ <use images/Timetable.png>
+Package pdftex.def Info: images/Timetable.png used on input line 8.
+(pdftex.def)             Requested size: 512.1496pt x 151.62933pt.
+
+Overfull \hbox (42.39458pt too wide) in paragraph at lines 8--10
+ [][] 
+ []
+
+) (./sections/PreliminaryReportOutline.tex
 File: ./images/sdu-header.png Graphic file (type png)
  <use ./images/sdu-header.png>
-Package pdftex.def Info: ./images/sdu-header.png used on input line 41.
+Package pdftex.def Info: ./images/sdu-header.png used on input line 7.
 (pdftex.def)             Requested size: 25.92157pt x 28.45274pt.
- [1]) (./sections/AdvisorAgreement.tex) (/Users/ThomasLemqvist/github/project-Y!/Sem4Group2/Report/Foundation/.texpadtmp/main.lof)
+ [4pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.7 		\item A
+             bstract <./images/Timetable.png>]) (./sections/CooperationAgreement.tex
+File: ./images/sdu-header.png Graphic file (type png)
+ <use ./images/sdu-header.png>
+Package pdftex.def Info: ./images/sdu-header.png used on input line 20.
+(pdftex.def)             Requested size: 25.92157pt x 28.45274pt.
+ [1]) (./sections/AdvisorAgreement.tex
+File: ./images/sdu-header.png Graphic file (type png)
+ <use ./images/sdu-header.png>
+Package pdftex.def Info: ./images/sdu-header.png used on input line 5.
+(pdftex.def)             Requested size: 25.92157pt x 28.45274pt.
+ [2]) (/Users/ThomasLemqvist/github/project-Y!/Sem4Group2/Report/Foundation/.texpadtmp/main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
 File: ./images/sdu-header.png Graphic file (type png)
  <use ./images/sdu-header.png>
-Package pdftex.def Info: ./images/sdu-header.png used on input line 136.
+Package pdftex.def Info: ./images/sdu-header.png used on input line 131.
 (pdftex.def)             Requested size: 25.92157pt x 28.45274pt.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
+ [3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
  (/Users/ThomasLemqvist/github/project-Y!/Sem4Group2/Report/Foundation/.texpadtmp/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 136.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 136.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 131.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 131.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 136.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 131.
  ) 
 Here is how much of TeX's memory you used:
- 7128 strings out of 493089
- 104291 string characters out of 6134842
- 295871 words of memory out of 5000000
- 10433 multiletter control sequences out of 15000+600000
- 9911 words of font info for 35 fonts, out of 8000000 for 9000
+ 7175 strings out of 493089
+ 104921 string characters out of 6134842
+ 296152 words of memory out of 5000000
+ 10460 multiletter control sequences out of 15000+600000
+ 10252 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,15n,43p,450b,503s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on /Users/ThomasLemqvist/github/project-Y!/Sem4Group2/Report/Foundation/.texpadtmp/main.pdf (12 pages, 161606 bytes).
+ 30i,15n,43p,460b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on /Users/ThomasLemqvist/github/project-Y!/Sem4Group2/Report/Foundation/.texpadtmp/main.pdf (9 pages, 672983 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 202 compressed objects within 3 object streams
- 61 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 255 PDF objects out of 1000 (max. 8388607)
+ 223 compressed objects within 3 object streams
+ 76 named destinations out of 1000 (max. 500000)
+ 135 words of extra memory for PDF output out of 10000 (max. 10000000)
 
