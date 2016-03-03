@@ -1,0 +1,39 @@
+\documentclass{article}
+%relevante pakker
+\usepackage{tabularx}
+%irelevante pakker
+\usepackage{parskip}
+\usepackage[margin=1in,includefoot]{geometry}
+
+\begin{document}
+	\section*{Contracts}
+	\begin{tabularx}{\textwidth}{|l|X|}
+		\hline Interface: & \texttt{IEntityProcessingService}\\\hline
+		Operation: & \texttt{Process()}\\\hline
+		Description: & Changes the attributes of an entity \\\hline
+		Parameters: & \texttt{GameData} - Wrapper obj for meta-data. Uses (\texttt{float}) deltaTime.
+		
+		\texttt{World} - A \texttt{Map<String, Entity>}, containing the Id and \texttt{entity} for each \texttt{entity}, active in the gameworld.\\\hline
+		Precondition: & It is time to update the scene, delta $x$ milis. have passed since last process call\\\hline
+		Postconditions: & The attributes for the entity have been updated\\\hline
+	\end{tabularx}
+	
+	\begin{tabularx}{\textwidth}{|l|X|}
+		\hline Interface: & \texttt{IGamePluginService}\\\hline
+		Operation: & \texttt{Start()}\\\hline
+		Description: & Instantiates a component and adds the new component to the scene. \\\hline
+		Parameters: & \texttt{GameData} - Wrapper obj for meta-data. Uses (\texttt{int})  screenHeight and screenWidth.
+		
+		\texttt{World} - A \texttt{Map<String, Entity>}, containing the Id and \texttt{entity} for each \texttt{entity}, active in the gameworld\\\hline
+		Precondition: & The component needs to be added to the scene\\\hline
+		Postconditions: & The component has been added to the scene\\\hline
+		
+		Operation: & \texttt{Stop()}\\\hline
+		Description: & Removes the component from the scene, using the component ID. \\\hline
+		Parameters: & \texttt{World} - A \texttt{Map<String, Entity>}, containing the Id and \texttt{entity} for each \texttt{entity}, active in the gameworld\\\hline
+		Precondition: & The component needs to be removed from the scene\\\hline
+		Postconditions: & The component has been removed from the scene\\\hline
+	\end{tabularx}
+
+	
+\end{document}

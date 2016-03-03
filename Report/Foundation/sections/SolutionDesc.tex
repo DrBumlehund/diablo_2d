@@ -1,5 +1,36 @@
 \documentclass[../main.tex]{subfiles}
 
 \begin{document}
-\lipsum
+The idea is to develop a top-down 2D shooter RPG game that contains, in its most basic form, a map where the player entity can move around and shoot enemy entities. The map can contain various obstacles, like impassable forests, roads where the player moves faster/further. \\
+The idea is that the different entities can be developed as separate implementations. It makes the most sense to implement AI in the enemy component, which is where we will implement it.\\
+We would like to start off with implementing the core of the game, and then develop additional implementations of the components (see Stretch goals).\\
+The enemy and weapon components will be able to be interchanged with different implementations at runtime.\\
+One way of implementing the map would be to use 2 dimensional arrays, with values determining what type of terrain a given pixel/tile is. For example an impassable forest could have value 5 and the player entity cannot pass through a value greater than 4 (could be made possible with "power-ups").\\
+The game will be a "survival-mode", where the enemies spawn indefinitely and progressively get stronger and/or increase in numbers until the player is overwhelmed and dies. This death can be put off with stronger implementations of the player weapon/health as x amount of enemies are destroyed.\\
+
+\textbf{Features:}
+\begin{enumerate}
+	\item Procedually Generated Maps
+	\item AI Enemies
+	\item Player and Enemy Weapons
+	\item Collision Detection
+\end{enumerate}
+\textbf{Stretch goals:}
+\begin{enumerate}
+	\item Different Weapons
+	\item Multiplayer
+		\begin{enumerate}
+			\item Local
+			\item Networked
+		\end{enumerate}
+	\item Joystick support
+	\item RPG-elements
+		\begin{enumerate}
+			\item Quests / Campaign
+			\item Inventory
+			\item Open world
+			\item Levels
+		\end{enumerate}
+	\item Local storage / Online storage
+\end{enumerate}
 \end{document}
