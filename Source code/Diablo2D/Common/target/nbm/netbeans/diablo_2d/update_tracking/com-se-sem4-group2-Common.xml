@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="com.se.sem4.group2.Common">
-    <module_version install_time="1456489827006" last="true" origin="installer" specification_version="1.0">
-        <file crc="2933945610" name="config/Modules/com-se-sem4-group2-Common.xml"/>
-        <file crc="438515111" name="modules/com-se-sem4-group2-Common.jar"/>
-    </module_version>
-</module>
